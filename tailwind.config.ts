@@ -7,6 +7,8 @@ const config: Config = {
       colors: {
         primary: "#253336",
         blue: "#007CBE",
+        redStart: "#F5232C",
+        redEnd: "#F5691C",
       },
       fontSize: {
         h1: "48px",
