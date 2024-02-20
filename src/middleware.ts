@@ -17,7 +17,7 @@ export function middleware(req: NextRequest) {
 
     if (
       user === process.env.BASIC_USER &&
-      password === process.env.BASIC_USER
+      password === process.env.BASIC_PASSWORD
     ) {
       return NextResponse.next();
     }
