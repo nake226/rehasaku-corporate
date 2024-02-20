@@ -5,9 +5,9 @@ type Props = {
   url: string;
 };
 
-export const HeaderLink = ({ label, url }: Props) => {
+export const FooterLink = ({ label, url }: Props) => {
   return (
-    <Link className="text-[15px] leading-[22px] font-bold" href={url}>
+    <Link className="text-small" href={url}>
       {label}
     </Link>
   );

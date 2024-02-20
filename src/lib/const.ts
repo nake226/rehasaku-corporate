@@ -30,3 +30,21 @@ export const HEADER_CONTENTS = [
     url: "/",
   },
 ];
+
+export const FOOTER_CONTENTS = [
+  {
+    id: 1,
+    label: "運営会社",
+    url: "/",
+  },
+  {
+    id: 2,
+    label: "個人情報について",
+    url: "/",
+  },
+  {
+    id: 3,
+    label: "プライバシーポリシー",
+    url: "/",
+  },
+];
