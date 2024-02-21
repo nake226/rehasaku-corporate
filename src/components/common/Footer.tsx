@@ -9,7 +9,7 @@ export const Footer = () => {
         <Image
           className="sm:m-auto"
           priority={true}
-          src="/images/logo.svg"
+          src="/images/common/logo.svg"
           width={200}
           height={40}
           alt="先進性で、リハビリに変革を。"
