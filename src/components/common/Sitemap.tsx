@@ -22,7 +22,7 @@ export const Sitemap = () => {
         <p className="border-b border-primary pb-2 font-bold">
           サービスのご案内
         </p>
-        <ul className="flex flex-col">
+        <ul className="flex flex-col text-[18px]">
           {SERVICE_CONTENTS.map((content) => (
             <li key={content.id} className="mt-6">
               <p>{content.title}</p>
@@ -33,7 +33,7 @@ export const Sitemap = () => {
                     className="pl-4 relative mt-4 before:content-sitemap before:absolute before:left-0"
                   >
                     <Link
-                      className="text-[18px] leading-[27px] whitespace-pre-line"
+                      className="leading-[27px] whitespace-pre-line"
                       href={content.url}
                     >
                       {content.label}
