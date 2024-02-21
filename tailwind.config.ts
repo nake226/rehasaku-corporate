@@ -10,6 +10,9 @@ const config: Config = {
         redStart: "#F5232C",
         redEnd: "#F5691C",
       },
+      content: {
+        sitemap: 'url("/images/icon-arrow.svg")',
+      },
       fontSize: {
         h1: "48px",
         h2: "40px",
