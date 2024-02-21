@@ -11,7 +11,7 @@ export const Header = () => {
         <Link href="/">
           <Image
             priority={true}
-            src="/images/logo.svg"
+            src="/images/common/logo.svg"
             width={175}
             height={35}
             alt="先進性で、リハビリに変革を。"

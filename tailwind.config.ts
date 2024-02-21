@@ -11,7 +11,7 @@ const config: Config = {
         redEnd: "#F5691C",
       },
       content: {
-        sitemap: 'url("/images/icon-arrow.svg")',
+        sitemap: 'url("/images/common/icon-arrow.svg")',
       },
       fontSize: {
         h1: "48px",
