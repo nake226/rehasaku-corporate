@@ -4,6 +4,10 @@ const config: Config = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "contact-pc": 'url("/images/common/bg-contact-pc.jpg")',
+        "contact-sp": 'url("/images/common/bg-contact-sp.jpg")',
+      },
       colors: {
         primary: "#253336",
         blue: "#007CBE",
