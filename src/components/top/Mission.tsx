@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { SectionTitle } from "../common/SectionTitle";
+import { LinkButton } from "../common/LinkButton";
 
 export const Mission = () => {
   return (
@@ -41,6 +42,9 @@ export const Mission = () => {
         <br className="sm:hidden" />
         自分らしく生きていただけるような、世の中が元気になる世界をつくっていきます。
       </p>
+      <div className="md:hidden">
+        <LinkButton label="企業理念" url="/" />
+      </div>
     </div>
   );
 };
