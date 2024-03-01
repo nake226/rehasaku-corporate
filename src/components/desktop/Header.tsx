@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header>
+    <header className="absolute top-0 w-full sm:hidden">
       <div className="flex items-center justify-between px-8 h-20">
         <Link href="/">
           <Image

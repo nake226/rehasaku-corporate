@@ -7,10 +7,13 @@ const config: Config = {
       backgroundImage: {
         "contact-pc": 'url("/images/common/bg-contact-pc.jpg")',
         "contact-sp": 'url("/images/common/bg-contact-sp.jpg")',
+        "top-pc": 'url("/images/top/bg-top-pc.jpg")',
+        "top-sp": 'url("/images/top/bg-top-sp.jpg")',
       },
       colors: {
         primary: "#253336",
         blue: "#007CBE",
+        skyBlue: "#80BDDE",
         redStart: "#F5232C",
         redEnd: "#F5691C",
       },
