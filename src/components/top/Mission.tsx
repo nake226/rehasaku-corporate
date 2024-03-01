@@ -7,7 +7,8 @@ export const Mission = () => {
       <SectionTitle
         title={
           <span className="font-bold">
-            OUR <br className="md:hidden" /> MISSION
+            OUR <br className="md:hidden" />
+            MISSION
           </span>
         }
         subTitle="リハサクのミッション"
