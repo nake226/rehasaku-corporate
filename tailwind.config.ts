@@ -14,6 +14,7 @@ const config: Config = {
         primary: "#253336",
         blue: "#007CBE",
         skyBlue: "#80BDDE",
+        lightBlue: "#F5FAFC",
         redStart: "#F5232C",
         redEnd: "#F5691C",
       },
