@@ -9,6 +9,10 @@ const config: Config = {
         "contact-sp": 'url("/images/common/bg-contact-sp.jpg")',
         "top-pc": 'url("/images/top/bg-top-pc.jpg")',
         "top-sp": 'url("/images/top/bg-top-sp.jpg")',
+        "top-medical-pc": 'url("/images/top/bg-medical-pc.jpg")',
+        "top-medical-sp": 'url("/images/top/bg-medical-sp.jpg")',
+        "top-cloud-pc": 'url("/images/top/bg-cloud-pc.jpg")',
+        "top-cloud-sp": 'url("/images/top/bg-cloud-sp.jpg")',
       },
       colors: {
         primary: "#253336",
@@ -17,6 +21,7 @@ const config: Config = {
         lightBlue: "#F5FAFC",
         redStart: "#F5232C",
         redEnd: "#F5691C",
+        lightGray: "#EBECF2",
       },
       content: {
         sitemap: 'url("/images/common/icon-arrow.svg")',

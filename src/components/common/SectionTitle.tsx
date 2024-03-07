@@ -26,7 +26,7 @@ export const SectionTitle = ({
   };
 
   return (
-    <div className={`grid place-items-${contentsAlign}`}>
+    <div className={`grid place-items-${contentsAlign} gap-y-2`}>
       <Image
         className={`${getIconPosition(iconSummitPosition)}`}
         priority={true}
@@ -35,8 +35,8 @@ export const SectionTitle = ({
         height={41}
         alt=""
       />
-      <p className="text-h1 leading-h1 mt-2">{title}</p>
-      <p className="text-sub leading-sub mt-2">{subTitle}</p>
+      <p className="text-h1 leading-h1">{title}</p>
+      <p className="text-sub leading-sub">{subTitle}</p>
     </div>
   );
 };

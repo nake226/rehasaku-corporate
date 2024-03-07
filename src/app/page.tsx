@@ -4,6 +4,7 @@ import { Sitemap } from "@/components/common/Sitemap";
 import { Header } from "@/components/desktop/Header";
 import { FirstView } from "@/components/top/FirstView";
 import { Mission } from "@/components/top/Mission";
+import { Service } from "@/components/top/Service";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <FirstView />
       <Mission />
+      <Service />
       <Contact />
       <Sitemap />
       <Footer />
