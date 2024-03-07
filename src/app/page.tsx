@@ -5,6 +5,7 @@ import { Header } from "@/components/desktop/Header";
 import { About } from "@/components/top/About";
 import { FirstView } from "@/components/top/FirstView";
 import { Mission } from "@/components/top/Mission";
+import { Recruit } from "@/components/top/Recruit";
 import { Service } from "@/components/top/Service";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Mission />
       <Service />
       <About />
+      <Recruit />
       <Contact />
       <Sitemap />
       <Footer />
