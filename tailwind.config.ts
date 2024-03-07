@@ -9,6 +9,8 @@ const config: Config = {
         "contact-sp": 'url("/images/common/bg-contact-sp.jpg")',
         "top-pc": 'url("/images/top/bg-top-pc.jpg")',
         "top-sp": 'url("/images/top/bg-top-sp.jpg")',
+        "top-about-pc": 'url("/images/top/bg-about-pc.png")',
+        "top-about-sp": 'url("/images/top/bg-about-sp.png")',
         "top-medical-pc": 'url("/images/top/bg-medical-pc.jpg")',
         "top-medical-sp": 'url("/images/top/bg-medical-sp.jpg")',
         "top-cloud-pc": 'url("/images/top/bg-cloud-pc.jpg")',
