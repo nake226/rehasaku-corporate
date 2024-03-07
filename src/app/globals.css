@@ -3,12 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --content-width: calc(100% - var(--content-side-width) * 2);
-  --content-side-width: 32px;
-
   @media screen(md) {
-    --content-width: calc(100% - var(--content-side-width) * 2);
-    --content-side-width: 80px;
     min-width: 1280px;
   }
 }
