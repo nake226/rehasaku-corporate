@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { SectionTitle } from "../common/SectionTitle";
-import { LinkButton } from "../common/LinkButton";
+import { SectionTitle } from "../../common/SectionTitle";
+import { LinkButton } from "../../common/LinkButton";
 
 export const Mission = () => {
   return (

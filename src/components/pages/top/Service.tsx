@@ -1,5 +1,5 @@
-import { SectionTitle } from "../common/SectionTitle";
-import { ServiceCard } from "../common/ServiceCard";
+import { SectionTitle } from "../../common/SectionTitle";
+import { ServiceCard } from "../../common/ServiceCard";
 
 export const Service = () => {
   return (

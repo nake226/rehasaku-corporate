@@ -1,5 +1,5 @@
-import { SectionTitle } from "../common/SectionTitle";
-import { LinkButton } from "../common/LinkButton";
+import { SectionTitle } from "../../common/SectionTitle";
+import { LinkButton } from "../../common/LinkButton";
 
 export const About = () => {
   return (
