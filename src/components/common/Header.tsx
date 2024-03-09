@@ -49,7 +49,7 @@ export const Header = () => {
         </div>
       </header>
       <header className="md:hidden">
-        <div className="flex items-center justify-between py-4 px-6">
+        <div className="flex items-center justify-between px-6 h-[57px]">
           <Link href="/">
             <Image
               priority={true}
@@ -77,7 +77,7 @@ export const Header = () => {
             className="hidden peer-checked:block absolute top-[57px] left-0 w-full h-[calc(100vh_-_57px)] bg-white z-10"
           >
             <div className="flex flex-col">
-              <ul className="flex flex-col">
+              <ul className="flex flex-col border-t border-offWhite">
                 {HEADER_CONTENTS.map((content) => {
                   const label = content.label;
                   return (
@@ -86,7 +86,7 @@ export const Header = () => {
                       className="py-4 px-6 [&:nth-child(n+2)]:border-t border-lightGray"
                     >
                       {label === "事業紹介" ? (
-                        <p></p>
+                        <HeaderLink label={content.label} url={content.url} />
                       ) : (
                         <HeaderLink label={content.label} url={content.url} />
                       )}

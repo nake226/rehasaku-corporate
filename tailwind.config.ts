@@ -27,6 +27,7 @@ const config: Config = {
         redStart: "#F5232C",
         redEnd: "#F5691C",
         lightGray: "#EBECF2",
+        offWhite: "#F3F6F8",
       },
       content: {
         sitemap: 'url("/images/common/icon-arrow.svg")',
