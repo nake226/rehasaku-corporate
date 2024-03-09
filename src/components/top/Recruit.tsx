@@ -4,7 +4,7 @@ import { LinkButton } from "../common/LinkButton";
 export const Recruit = () => {
   return (
     <div className="p-20 sm:px-8 bg-lightBlue sm:bg-top-recruit-sp bg-contain bg-no-repeat">
-      <div className="grid gap-y-6 md:bg-top-recruit-pc bg-right bg-contain bg-no-repeat">
+      <div className="grid gap-y-6 md:max-w-[1120px] md:mx-auto md:bg-top-recruit-pc bg-right bg-contain bg-no-repeat">
         <SectionTitle
           title={<span className="font-bold">RECRUIT</span>}
           subTitle="採用情報"
