@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  mode: "jit",
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -9,13 +10,24 @@ const config: Config = {
         "contact-sp": 'url("/images/common/bg-contact-sp.jpg")',
         "top-pc": 'url("/images/top/bg-top-pc.jpg")',
         "top-sp": 'url("/images/top/bg-top-sp.jpg")',
+        "top-medical-pc": 'url("/images/top/bg-medical-pc.jpg")',
+        "top-medical-sp": 'url("/images/top/bg-medical-sp.jpg")',
+        "top-cloud-pc": 'url("/images/top/bg-cloud-pc.jpg")',
+        "top-cloud-sp": 'url("/images/top/bg-cloud-sp.jpg")',
+        "top-about-pc": 'url("/images/top/bg-about-pc.png")',
+        "top-about-sp": 'url("/images/top/bg-about-sp.png")',
+        "top-recruit-pc": 'url("/images/top/bg-recruit-pc.jpg")',
+        "top-recruit-sp": 'url("/images/top/bg-recruit-sp.jpg")',
       },
       colors: {
         primary: "#253336",
         blue: "#007CBE",
         skyBlue: "#80BDDE",
+        lightBlue: "#F5FAFC",
         redStart: "#F5232C",
         redEnd: "#F5691C",
+        lightGray: "#EBECF2",
+        offWhite: "#F3F6F8",
       },
       content: {
         sitemap: 'url("/images/common/icon-arrow.svg")',

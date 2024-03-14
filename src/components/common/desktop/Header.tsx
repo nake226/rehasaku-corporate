@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { HEADER_CONTENTS } from "@/lib/const";
-import { HeaderLink } from "../common/HeaderLink";
-import { ContactButton } from "../common/ContactButton";
+import { HeaderLink } from "@/components/common/HeaderLink";
+import { ContactButton } from "@/components/common/ContactButton";
 import Link from "next/link";
+import { useState } from "react";
 
 export const Header = () => {
   return (

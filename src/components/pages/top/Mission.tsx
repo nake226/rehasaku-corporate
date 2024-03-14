@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { SectionTitle } from "../common/SectionTitle";
-import { LinkButton } from "../common/LinkButton";
+import { SectionTitle } from "../../common/SectionTitle";
+import { LinkButton } from "../../common/LinkButton";
 
 export const Mission = () => {
   return (
-    <div className="py-20 grid place-items-center gap-y-8 sm:px-8 text-center">
+    <div className="py-20 grid place-items-center gap-y-8 sm:px-8 text-center bg-lightBlue">
       <SectionTitle
         title={
           <span className="font-bold">
