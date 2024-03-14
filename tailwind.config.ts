@@ -18,6 +18,8 @@ const config: Config = {
         "top-about-sp": 'url("/images/top/bg-about-sp.png")',
         "top-recruit-pc": 'url("/images/top/bg-recruit-pc.jpg")',
         "top-recruit-sp": 'url("/images/top/bg-recruit-sp.jpg")',
+        "page-title-pc": 'url("/images/common/bg-page-title-pc.png")',
+        "page-title-sp": 'url("/images/common/bg-page-title-sp.png")',
       },
       colors: {
         primary: "#253336",
@@ -27,6 +29,7 @@ const config: Config = {
         redStart: "#F5232C",
         redEnd: "#F5691C",
         lightGray: "#EBECF2",
+        gray: "#828993",
         offWhite: "#F3F6F8",
       },
       content: {
