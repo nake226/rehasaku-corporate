@@ -11,7 +11,7 @@ import { Service } from "@/components/pages/top/Service";
 export default function Home() {
   return (
     <main>
-      <Header />
+      <Header isChildPage={false} />
       <FirstView />
       <Mission />
       <Service />
