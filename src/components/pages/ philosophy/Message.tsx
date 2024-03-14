@@ -5,7 +5,7 @@ export const Message = () => {
     <div className="py-20 md:px-32 sm:px-8">
       <div className="grid place-items-start md:max-w-[1024px] md:mx-auto gap-y-8 text-center">
         <SectionTitle
-          title={<span className="font-bold">CEO MESSAGE</span>}
+          title={<span className="block font-bold text-left">CEO MESSAGE</span>}
           subTitle="代表メッセージ"
           iconSummitPosition="tl"
           contentsAlign="start"

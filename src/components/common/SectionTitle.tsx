@@ -14,7 +14,7 @@ export const SectionTitle = ({
   iconSummitPosition = "tr",
   contentsAlign = "center",
 }: Props) => {
-  const getIconPosition = (iconSummitPosition: "tr" | "bl" | "tl") => {
+  const getIconPosition = (iconSummitPosition: Props["iconSummitPosition"]) => {
     switch (iconSummitPosition) {
       case "bl":
         return "rotate-180";
@@ -25,8 +25,14 @@ export const SectionTitle = ({
     }
   };
 
+  const getContentsAlign = (contentsAlign: Props["contentsAlign"]) => {
+    return contentsAlign === "start"
+      ? "place-items-start"
+      : "place-items-center";
+  };
+
   return (
-    <div className={`grid place-items-${contentsAlign} gap-y-2`}>
+    <div className={`grid ${getContentsAlign(contentsAlign)} gap-y-2`}>
       <Image
         className={`${getIconPosition(iconSummitPosition)}`}
         priority={true}
