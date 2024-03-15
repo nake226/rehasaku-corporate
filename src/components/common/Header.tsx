@@ -7,7 +7,11 @@ import { ContactButton } from "./ContactButton";
 import Link from "next/link";
 import { useState } from "react";
 
-export const Header = () => {
+type Props = {
+  isChildPage?: boolean;
+};
+
+export const Header = ({ isChildPage = true }: Props) => {
   const [isHeaderShown, setIsHeaderShown] = useState(false);
 
   const handleBodyFixedStatus = () => {
@@ -23,9 +27,11 @@ export const Header = () => {
     }
   };
 
+  const headerStyle = isChildPage ? "bg-white" : "absolute top-0 w-full";
+
   return (
     <div>
-      <header className="absolute top-0 w-full sm:hidden">
+      <header className={`${headerStyle} sm:hidden`}>
         <div className="flex items-center justify-between px-8 h-20">
           <Link href="/">
             <Image
