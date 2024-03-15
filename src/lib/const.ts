@@ -116,3 +116,42 @@ export const SERVICE_CONTENTS = [
     ],
   },
 ];
+
+export const ABOUT_CONTENTS = [
+  {
+    id: 1,
+    label: "名称",
+    value: "株式会社リハサク",
+  },
+  {
+    id: 2,
+    label: "設立",
+    value: "2018年5月1日",
+  },
+  {
+    id: 3,
+    label: "代表取締役",
+    value: "谷垣　主税",
+  },
+  {
+    id: 4,
+    label: "取締役",
+    value: "近藤　慎也",
+  },
+  {
+    id: 5,
+    label: "資本金",
+    value: "12,500,000円",
+  },
+  {
+    id: 6,
+    label: "所在地",
+    value:
+      "〒108-6022\n東京都港区港南2丁目15-1 品川インターシティ A棟 22階 SPROUND内",
+  },
+  {
+    id: 7,
+    label: "TEL",
+    value: "03-4500-2211",
+  },
+];

@@ -29,6 +29,7 @@ const config: Config = {
         redStart: "#F5232C",
         redEnd: "#F5691C",
         lightGray: "#EBECF2",
+        aboutGray: "#A3A7A8",
         gray: "#828993",
         offWhite: "#F3F6F8",
       },
