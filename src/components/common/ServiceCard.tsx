@@ -24,12 +24,10 @@ export const ServiceCard = ({
 }: Props) => {
   return (
     <div
-      className={`border border-lightGray rounded-2xl ${pcBgImg} ${spBgImg} bg-cover`}
+      className={`${height} ${width} sm:w-full border border-lightGray rounded-2xl ${pcBgImg} ${spBgImg} bg-cover`}
     >
       <Link href={url}>
-        <div
-          className={`flex justify-between p-6 sm:pb-3 sm:pr-3 ${height} ${width} sm:w-auto`}
-        >
+        <div className={`flex justify-between p-6 sm:pb-3 sm:pr-3 h-full`}>
           <div className="grid gap-y-2 sm:gap-y-1 self-start">
             <p className="w-32 h-9 grid place-items-center bg-blue text-paragraph leading-[30px] text-white rounded font-semibold">
               {labelText}
