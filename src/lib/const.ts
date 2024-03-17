@@ -155,3 +155,45 @@ export const ABOUT_CONTENTS = [
     value: "03-4500-2211",
   },
 ];
+
+export const VALUES_CONTENTS = [
+  {
+    id: 1,
+    en: "Beyond Customer expectation",
+    jp: "常にお客さんの期待を超える",
+    description:
+      "Missionとして、また営利企業として、動的に変わるお客様の期待を超え続けよう。",
+  },
+  {
+    id: 2,
+    en: "Sense of humor",
+    jp: "ユーモアをもって仕事を楽しむ",
+    description: "我々はロボットではなく人間。ユーモアをもって仕事を楽しもう。",
+  },
+  {
+    id: 3,
+    en: "Passion to innovate",
+    jp: "イノベーションに情熱を注ぐ",
+    description: "我々の存在意義は、イノベーションによる新たな価値創造。",
+  },
+  {
+    id: 4,
+    en: "Respect for people",
+    jp: "人を敬う",
+    description:
+      "ひとりひとり独自の個性、独自の人生の歴史がある。それらへのリスペクトが協業の礎。",
+  },
+  {
+    id: 5,
+    en: "Accountability & Integrity",
+    jp: "説明責任と誠実さ",
+    description:
+      "自主性を発揮することは自分の役割に対して、誠実に説明責任をはたすことがあって成り立つ。",
+  },
+  {
+    id: 6,
+    en: "Continuous learning",
+    jp: "常に学ぶ",
+    description: "常に成長したい、という集団であり続けよう。",
+  },
+];
