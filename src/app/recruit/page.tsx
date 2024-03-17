@@ -1,5 +1,6 @@
 import { PageTitle } from "@/components/common/PageTitle";
 import { Members } from "@/components/pages/recruit/Members";
+import { Office } from "@/components/pages/recruit/Office";
 import { Values } from "@/components/pages/recruit/Values";
 import { ChildPage } from "@/components/templates/ChildPage";
 
@@ -13,6 +14,7 @@ export default function RecruitPage() {
       />
       <Values />
       <Members />
+      <Office />
     </ChildPage>
   );
 }
