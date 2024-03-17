@@ -6,14 +6,15 @@ import { Sitemap } from "../common/Sitemap";
 
 type Props = {
   children?: ReactNode;
+  isRecruitPage?: boolean;
 };
 
-export const ChildPage = ({ children }: Props) => {
+export const ChildPage = ({ children, isRecruitPage = false }: Props) => {
   return (
     <main>
       <Header />
       {children}
-      <Contact />
+      {!isRecruitPage && <Contact />}
       <Sitemap />
       <Footer />
     </main>

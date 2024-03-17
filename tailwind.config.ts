@@ -20,6 +20,8 @@ const config: Config = {
         "top-recruit-sp": 'url("/images/top/bg-recruit-sp.jpg")',
         "page-title-pc": 'url("/images/common/bg-page-title-pc.png")',
         "page-title-sp": 'url("/images/common/bg-page-title-sp.png")',
+        "recruit-pc": 'url("/images/recruit/bg-recruit-pc.jpg")',
+        "recruit-sp": 'url("/images/recruit/bg-recruit-sp.jpg")',
       },
       colors: {
         primary: "#253336",

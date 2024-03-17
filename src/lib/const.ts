@@ -155,3 +155,113 @@ export const ABOUT_CONTENTS = [
     value: "03-4500-2211",
   },
 ];
+
+export const VALUES_CONTENTS = [
+  {
+    id: 1,
+    en: "Beyond Customer expectation",
+    jp: "常にお客さんの期待を超える",
+    description:
+      "Missionとして、また営利企業として、動的に変わるお客様の期待を超え続けよう。",
+  },
+  {
+    id: 2,
+    en: "Sense of humor",
+    jp: "ユーモアをもって仕事を楽しむ",
+    description: "我々はロボットではなく人間。ユーモアをもって仕事を楽しもう。",
+  },
+  {
+    id: 3,
+    en: "Passion to innovate",
+    jp: "イノベーションに情熱を注ぐ",
+    description: "我々の存在意義は、イノベーションによる新たな価値創造。",
+  },
+  {
+    id: 4,
+    en: "Respect for people",
+    jp: "人を敬う",
+    description:
+      "ひとりひとり独自の個性、独自の人生の歴史がある。それらへのリスペクトが協業の礎。",
+  },
+  {
+    id: 5,
+    en: "Accountability & Integrity",
+    jp: "説明責任と誠実さ",
+    description:
+      "自主性を発揮することは自分の役割に対して、誠実に説明責任をはたすことがあって成り立つ。",
+  },
+  {
+    id: 6,
+    en: "Continuous learning",
+    jp: "常に学ぶ",
+    description: "常に成長したい、という集団であり続けよう。",
+  },
+];
+
+export const MEMBERS_CONTENTS = [
+  {
+    id: 1,
+    name: "谷垣 主税",
+    role: "代表取締役社長 CEO",
+  },
+  {
+    id: 2,
+    name: "近藤 慎也",
+    role: "取締役 CCO",
+  },
+  {
+    id: 3,
+    name: "岩崎 有",
+    role: "Corporate",
+  },
+  {
+    id: 4,
+    name: "桐内修平",
+    role: "Marketing",
+  },
+  {
+    id: 5,
+    name: "内野 翔太",
+    role: "PM／PdM",
+  },
+  {
+    id: 6,
+    name: "八木 楓",
+    role: "Customer Success",
+  },
+  {
+    id: 7,
+    name: "神田 柾行",
+    role: "Marketing",
+  },
+  {
+    id: 8,
+    name: "関 珠里亜",
+    role: "Sales",
+  },
+  {
+    id: 9,
+    name: "Arda Sutadja",
+    role: "Engineer",
+  },
+  {
+    id: 10,
+    name: "Ann",
+    role: "Engineer",
+  },
+  {
+    id: 11,
+    name: "Audrey Olivia",
+    role: "UIUX Designer",
+  },
+  {
+    id: 12,
+    name: "Tony Xu (徐 得翔)",
+    role: "Engineer",
+  },
+  {
+    id: 13,
+    name: "石井 久弥",
+    role: "Sales",
+  },
+];
