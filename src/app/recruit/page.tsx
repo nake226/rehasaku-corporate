@@ -1,4 +1,5 @@
 import { PageTitle } from "@/components/common/PageTitle";
+import { Members } from "@/components/pages/recruit/Members";
 import { Values } from "@/components/pages/recruit/Values";
 import { ChildPage } from "@/components/templates/ChildPage";
 
@@ -11,6 +12,7 @@ export default function RecruitPage() {
         triangleIconSummitPosition="bl"
       />
       <Values />
+      <Members />
     </ChildPage>
   );
 }

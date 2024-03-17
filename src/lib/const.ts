@@ -197,3 +197,71 @@ export const VALUES_CONTENTS = [
     description: "常に成長したい、という集団であり続けよう。",
   },
 ];
+
+export const MEMBERS_CONTENTS = [
+  {
+    id: 1,
+    name: "谷垣 主税",
+    role: "代表取締役社長 CEO",
+  },
+  {
+    id: 2,
+    name: "近藤 慎也",
+    role: "取締役 CCO",
+  },
+  {
+    id: 3,
+    name: "岩崎 有",
+    role: "Corporate",
+  },
+  {
+    id: 4,
+    name: "桐内修平",
+    role: "Marketing",
+  },
+  {
+    id: 5,
+    name: "内野 翔太",
+    role: "PM／PdM",
+  },
+  {
+    id: 6,
+    name: "八木 楓",
+    role: "Customer Success",
+  },
+  {
+    id: 7,
+    name: "神田 柾行",
+    role: "Marketing",
+  },
+  {
+    id: 8,
+    name: "関 珠里亜",
+    role: "Sales",
+  },
+  {
+    id: 9,
+    name: "Arda Sutadja",
+    role: "Engineer",
+  },
+  {
+    id: 10,
+    name: "Ann",
+    role: "Engineer",
+  },
+  {
+    id: 11,
+    name: "Audrey Olivia",
+    role: "UIUX Designer",
+  },
+  {
+    id: 12,
+    name: "Tony Xu (徐 得翔)",
+    role: "Engineer",
+  },
+  {
+    id: 13,
+    name: "石井 久弥",
+    role: "Sales",
+  },
+];
