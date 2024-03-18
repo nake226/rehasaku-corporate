@@ -2,32 +2,32 @@ export const HEADER_CONTENTS = [
   {
     id: 1,
     label: "事業紹介",
-    url: "/",
+    url: "/service",
   },
   {
     id: 2,
     label: "お知らせ",
-    url: "/",
+    url: "/news",
   },
   {
     id: 3,
     label: "企業理念",
-    url: "/",
+    url: "/philosophy",
   },
   {
     id: 4,
     label: "会社概要",
-    url: "/",
+    url: "/about",
   },
   {
     id: 5,
     label: "採用情報",
-    url: "/",
+    url: "/recruit",
   },
   {
     id: 6,
     label: "ブログ",
-    url: "/",
+    url: "https://rehasaku.net/magazine",
   },
 ];
 
@@ -58,32 +58,32 @@ export const SITE_CONTENTS = [
   {
     id: 2,
     label: "企業理念",
-    url: "/",
+    url: "/philosophy",
   },
   {
     id: 3,
     label: "事業紹介",
-    url: "/",
+    url: "/service",
   },
   {
     id: 4,
     label: "お知らせ",
-    url: "/",
+    url: "/news",
   },
   {
     id: 5,
     label: "会社概要",
-    url: "/",
+    url: "/about",
   },
   {
     id: 6,
     label: "採用情報",
-    url: "/",
+    url: "/recruit",
   },
   {
     id: 7,
     label: "問い合わせ",
-    url: "/",
+    url: "https://rehasaku.net/contact/",
   },
 ];
 
@@ -106,12 +106,12 @@ export const SERVICE_CONTENTS = [
       {
         id: 1,
         label: "REHASAKU（運動指導支援ツール）",
-        url: "/",
+        url: "/service/",
       },
       {
         id: 2,
         label: "REHASAKU Posture（AI姿勢分析）",
-        url: "/",
+        url: "/service/posture",
       },
     ],
   },

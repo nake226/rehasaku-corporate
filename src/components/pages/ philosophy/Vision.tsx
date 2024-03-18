@@ -1,5 +1,4 @@
 import { SectionTitle } from "../../common/SectionTitle";
-import { LinkButton } from "../../common/LinkButton";
 
 export const Vision = () => {
   return (
@@ -30,9 +29,6 @@ export const Vision = () => {
         <br className="sm:hidden" />
         そんな流れができると医療はもっとよくなると思います。
       </p>
-      <div className="md:hidden">
-        <LinkButton label="企業理念" url="/" />
-      </div>
     </div>
   );
 };

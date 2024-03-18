@@ -14,7 +14,7 @@ export const About = () => {
             日常生活におけるリハビリの浸透はまだまだ不十分。だからこそ、超情報化社会の中、リハビリとテクノロジーの融合により、リハビリを身近な存在にすることで、人々の未来を紡いでいきたい。そんな思いから、事業創造したい、と思いました。リハビリをテクノロジーでつなぐ新しいサービスを提供し、医療機関を通じて人々の未来へサポートしたい。こうして生まれたのが「リハサク」です。
           </p>
           <div className="mt-8 sm:hidden">
-            <LinkButton label="会社概要" url="" />
+            <LinkButton label="会社概要" url="/about" />
           </div>
         </div>
         <div className="bg-top-about-pc bg-no-repeat bg-contain h-[965px] w-[1120px] sm:hidden"></div>
@@ -23,7 +23,7 @@ export const About = () => {
         </div>
       </div>
       <div className="mt-8 grid place-items-center md:hidden">
-        <LinkButton label="会社概要" url="" />
+        <LinkButton label="会社概要" url="/about" />
       </div>
     </div>
   );
