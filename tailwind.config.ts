@@ -61,6 +61,9 @@ const config: Config = {
       sm: { max: "767px" },
       md: "768px",
     },
+    fontFamily: {
+      sans: ["var(--font-noto-sans-jp)"],
+    },
   },
 };
 export default config;
