@@ -14,9 +14,10 @@ export const Recruit = () => {
       <div className="font-bold">
         <LinkButton
           label="採用ページを見る"
-          url=""
+          url="https://rehasaku.net/career/"
           width="w-36"
           showArrow={false}
+          isOuterLink={true}
         />
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { Breadcrumb } from "@/components/common/Breadcrumb";
 import { PageTitle } from "@/components/common/PageTitle";
 import { ServiceCard } from "@/components/common/ServiceCard";
 import { ChildPage } from "@/components/templates/ChildPage";
@@ -10,6 +11,7 @@ export default function ServicePage() {
         subTitle="事業紹介"
         triangleIconSummitPosition="tl"
       />
+      <Breadcrumb pages={[{ label: "事業紹介", url: "/service" }]} />
       <div className="grid gap-y-10 sm:gap-y-8 p-20 sm:px-8 sm:py-16">
         <p className="text-paragraph leading-paragraph md:text-center">
           リハサクは
@@ -24,7 +26,7 @@ export default function ServicePage() {
             height="h-[418px] sm:h-[280px]"
             pcBgImg="bg-top-medical-pc"
             spBgImg="sm:bg-top-medical-sp"
-            url=""
+            url="/service"
             labelText="医療機関向け"
             serviceName="REHASAKU Medical"
             serviceContents={["運動療法クラウドシステム"]}
@@ -34,7 +36,7 @@ export default function ServicePage() {
             height="h-[418px] sm:h-[280px]"
             pcBgImg="bg-top-cloud-pc"
             spBgImg="sm:bg-top-cloud-sp"
-            url=""
+            url="/service/posture"
             labelText="治療院向け"
             serviceName="REHASAKU Cloud "
             serviceContents={["運動指導支援ツール", "AI姿勢分析"]}

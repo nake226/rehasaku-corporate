@@ -1,3 +1,4 @@
+import { Breadcrumb } from "@/components/common/Breadcrumb";
 import { PageTitle } from "@/components/common/PageTitle";
 import { ChildPage } from "@/components/templates/ChildPage";
 import { ABOUT_CONTENTS } from "@/lib/const";
@@ -10,6 +11,7 @@ export default function AboutPage() {
         subTitle="会社概要"
         triangleIconSummitPosition="tr"
       />
+      <Breadcrumb pages={[{ label: "会社概要", url: "/about" }]} />
       <div className="md:w-[800px] md:mx-auto py-20 sm:py-16 sm:px-8">
         <ul>
           {ABOUT_CONTENTS.map((content) => (

@@ -4,7 +4,7 @@ import { FooterLink } from "./FooterLink";
 
 export const Footer = () => {
   return (
-    <footer className="border-t border-blue">
+    <footer className="border-t border-blue text-[#00293F]">
       <div className="md:flex md:items-start md:justify-between md:px-8 h-48 pt-10 sm:pt-8">
         <Image
           className="sm:m-auto"

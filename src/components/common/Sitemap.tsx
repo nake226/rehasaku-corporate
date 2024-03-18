@@ -3,19 +3,29 @@ import Link from "next/link";
 
 export const Sitemap = () => {
   return (
-    <div className="flex justify-center pt-16 px-[140px] pb-12 gap-x-32 mx-auto sm:flex-col sm:pt-20 sm:px-8 sm:pb-24 sm:gap-y-8">
+    <div className="flex justify-center pt-16 px-[140px] pb-12 gap-x-32 mx-auto sm:flex-col sm:pt-20 sm:px-8 sm:pb-24 sm:gap-y-8 text-[#3A3A3A]">
       <div>
         <p className="border-b border-primary pb-2 font-bold">
           リハサクについて
         </p>
         <ul className="pt-6 flex flex-col gap-y-4">
-          {SITE_CONTENTS.map((content) => (
-            <li key={content.id}>
-              <Link className="text-[18px] leading-[27px]" href={content.url}>
-                {content.label}
-              </Link>
-            </li>
-          ))}
+          {SITE_CONTENTS.map((content) => {
+            const isOuterLink = content.url.includes("https");
+            const linkProps = isOuterLink
+              ? { target: "_blank", rel: "noopener noreferrer" }
+              : {};
+            return (
+              <li key={content.id}>
+                <Link
+                  className="text-[18px] leading-[27px]"
+                  href={content.url}
+                  {...linkProps}
+                >
+                  {content.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div>

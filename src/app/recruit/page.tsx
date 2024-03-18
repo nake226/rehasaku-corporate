@@ -6,78 +6,29 @@ import { Values } from "@/components/pages/recruit/Values";
 import { Recruit } from "@/components/pages/recruit/Recruit";
 import { ChildPage } from "@/components/templates/ChildPage";
 import DemoSlider from "@/components/common/DemoSlider";
+import { Breadcrumb } from "@/components/common/Breadcrumb";
 
 export default function RecruitPage() {
   const dataSlider = [
     {
       id: 1,
-      title: "ARE AWESOME",
-      tagline: "NEXTJS 13 & SWIPER SLIDER",
       image: "/images/recruit/office01.jpg",
-      buttons: [
-        {
-          id: 1,
-          text: "Roberto Nickson",
-          link: "https://www.pexels.com/@rpnickson/",
-          type: "btn-dark btn-circle",
-        },
-      ],
     },
     {
-      id: 1,
-      title: "ARE AWESOME",
-      tagline: "NEXTJS 13 & SWIPER SLIDER",
+      id: 2,
       image: "/images/recruit/office02.jpg",
-      buttons: [
-        {
-          id: 1,
-          text: "Roberto Nickson",
-          link: "https://www.pexels.com/@rpnickson/",
-          type: "btn-dark btn-circle",
-        },
-      ],
     },
     {
-      id: 1,
-      title: "ARE AWESOME",
-      tagline: "NEXTJS 13 & SWIPER SLIDER",
+      id: 3,
       image: "/images/recruit/office03.jpg",
-      buttons: [
-        {
-          id: 1,
-          text: "Roberto Nickson",
-          link: "https://www.pexels.com/@rpnickson/",
-          type: "btn-dark btn-circle",
-        },
-      ],
     },
     {
-      id: 1,
-      title: "ARE AWESOME",
-      tagline: "NEXTJS 13 & SWIPER SLIDER",
+      id: 4,
       image: "/images/recruit/office04.jpg",
-      buttons: [
-        {
-          id: 1,
-          text: "Roberto Nickson",
-          link: "https://www.pexels.com/@rpnickson/",
-          type: "btn-dark btn-circle",
-        },
-      ],
     },
     {
-      id: 1,
-      title: "ARE AWESOME",
-      tagline: "NEXTJS 13 & SWIPER SLIDER",
+      id: 5,
       image: "/images/recruit/office05.jpg",
-      buttons: [
-        {
-          id: 1,
-          text: "Roberto Nickson",
-          link: "https://www.pexels.com/@rpnickson/",
-          type: "btn-dark btn-circle",
-        },
-      ],
     },
   ];
   return (
@@ -87,6 +38,7 @@ export default function RecruitPage() {
         subTitle="採用情報"
         triangleIconSummitPosition="bl"
       />
+      <Breadcrumb pages={[{ label: "採用情報", url: "/recruit" }]} />
       <Values />
       <Members />
       <Office />

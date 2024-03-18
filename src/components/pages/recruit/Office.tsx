@@ -7,6 +7,7 @@ export const Office = () => {
         title={<span className="font-bold">OUR OFFICE</span>}
         subTitle="オフィス風景"
         iconSummitPosition="tl"
+        subTitleCustomClassName="text-gray font-bold"
       />
     </div>
   );
