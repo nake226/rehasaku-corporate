@@ -1,3 +1,4 @@
+import { Breadcrumb } from "@/components/common/Breadcrumb";
 import { PageTitle } from "@/components/common/PageTitle";
 import { ServiceCard } from "@/components/common/ServiceCard";
 import { ChildPage } from "@/components/templates/ChildPage";
@@ -10,6 +11,7 @@ export default function ServicePage() {
         subTitle="事業紹介"
         triangleIconSummitPosition="tl"
       />
+      <Breadcrumb pages={[{ label: "事業紹介", url: "/service" }]} />
       <div className="grid gap-y-10 sm:gap-y-8 p-20 sm:px-8 sm:py-16">
         <p className="text-paragraph leading-paragraph md:text-center">
           リハサクは

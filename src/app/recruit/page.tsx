@@ -6,6 +6,7 @@ import { Values } from "@/components/pages/recruit/Values";
 import { Recruit } from "@/components/pages/recruit/Recruit";
 import { ChildPage } from "@/components/templates/ChildPage";
 import DemoSlider from "@/components/common/DemoSlider";
+import { Breadcrumb } from "@/components/common/Breadcrumb";
 
 export default function RecruitPage() {
   const dataSlider = [
@@ -37,6 +38,7 @@ export default function RecruitPage() {
         subTitle="採用情報"
         triangleIconSummitPosition="bl"
       />
+      <Breadcrumb pages={[{ label: "採用情報", url: "/recruit" }]} />
       <Values />
       <Members />
       <Office />

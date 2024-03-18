@@ -3,6 +3,7 @@ import { SectionTitle } from "@/components/common/SectionTitle";
 import Image from "next/image";
 import { ChildPage } from "@/components/templates/ChildPage";
 import { LinkButton } from "@/components/common/LinkButton";
+import { Breadcrumb } from "@/components/common/Breadcrumb";
 
 export default function PosturePage() {
   return (
@@ -11,6 +12,12 @@ export default function PosturePage() {
         title="TREATMENT CENTERS"
         subTitle="治療院向け事業"
         triangleIconSummitPosition="bl"
+      />
+      <Breadcrumb
+        pages={[
+          { label: "事業紹介", url: "/service" },
+          { label: "治療院向け事業", url: "/service/posture" },
+        ]}
       />
       <div className="w-fit m-auto py-20 sm:py-16 sm:px-8">
         <SectionTitle
