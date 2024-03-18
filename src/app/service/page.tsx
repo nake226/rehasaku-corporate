@@ -24,7 +24,7 @@ export default function ServicePage() {
             height="h-[418px] sm:h-[280px]"
             pcBgImg="bg-top-medical-pc"
             spBgImg="sm:bg-top-medical-sp"
-            url=""
+            url="/service"
             labelText="医療機関向け"
             serviceName="REHASAKU Medical"
             serviceContents={["運動療法クラウドシステム"]}
@@ -34,7 +34,7 @@ export default function ServicePage() {
             height="h-[418px] sm:h-[280px]"
             pcBgImg="bg-top-cloud-pc"
             spBgImg="sm:bg-top-cloud-sp"
-            url=""
+            url="/service/posture"
             labelText="治療院向け"
             serviceName="REHASAKU Cloud "
             serviceContents={["運動指導支援ツール", "AI姿勢分析"]}

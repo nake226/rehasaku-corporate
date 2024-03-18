@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ChildPage } from "@/components/templates/ChildPage";
 import { LinkButton } from "@/components/common/LinkButton";
 
-export default function TreatmentPage() {
+export default function PosturePage() {
   return (
     <ChildPage>
       <PageTitle
@@ -25,7 +25,11 @@ export default function TreatmentPage() {
               REHASAKUは治療院で働くセラピストの運動指導業務をサポートする「運動指導支援ツール」です。院内での運動指導のみならず、院外でのセルフケアのサポート機会を創出し、患者満足度向上および再診率向上に寄与します。
             </p>
             <div className="sm:grid sm:place-items-center mt-12">
-              <LinkButton label="詳細はこちら" url="/service/" />
+              <LinkButton
+                label="詳細はこちら"
+                url="https://rehasaku.net/lp/8"
+                isOuterLink={true}
+              />
             </div>
           </div>
           <Image
@@ -58,7 +62,11 @@ export default function TreatmentPage() {
               Postureはセラピストの姿勢評価をサポートする「AI姿勢分析」です。前額面・矢状面の２方向からの撮影を元に、骨格ポイントを自動検出し、患者さんの姿勢パターンを見える化します。また、運動指導支援ツールとの連携で、姿勢改善に最適なエクササイズをアプリへ処方することができ、患者さんの主体的なリハビリへの参加を手助けします。
             </p>
             <div className="sm:grid sm:place-items-center mt-12">
-              <LinkButton label="詳細はこちら" url="/service/treatment" />
+              <LinkButton
+                label="詳細はこちら"
+                url="https://rehasaku.net/rehasaku-posture"
+                isOuterLink={true}
+              />
             </div>
           </div>
           <Image

@@ -6,15 +6,26 @@ type Props = {
   url: string;
   width?: string;
   showArrow?: boolean;
+  isOuterLink?: boolean;
 };
 
-export const LinkButton = ({ label, url, width, showArrow = true }: Props) => {
+export const LinkButton = ({
+  label,
+  url,
+  width,
+  showArrow = true,
+  isOuterLink = false,
+}: Props) => {
+  const linkProps = isOuterLink
+    ? { href: url, target: "_blank", rel: "noopener noreferrer" }
+    : { href: url };
+
   return (
     <Link
       className={`relative grid place-items-center rounded-full text-caption leading-caption text-white bg-blue ${
         width ? width : "w-64"
       } h-12`}
-      href={url}
+      {...linkProps}
     >
       {label}
       {showArrow && (

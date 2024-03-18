@@ -95,7 +95,7 @@ export const SERVICE_CONTENTS = [
       {
         id: 1,
         label: "REHASAKU Medical\n（運動療法クラウドシステム）",
-        url: "/",
+        url: "/service",
       },
     ],
   },

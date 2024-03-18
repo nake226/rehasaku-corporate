@@ -17,6 +17,7 @@ export const Recruit = () => {
           url="https://rehasaku.net/career/"
           width="w-36"
           showArrow={false}
+          isOuterLink={true}
         />
       </div>
     </div>

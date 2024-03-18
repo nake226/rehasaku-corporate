@@ -44,11 +44,18 @@ export const Header = ({ isChildPage = true }: Props) => {
           </Link>
           <div className="flex items-center">
             <ul className="flex items-center justify-between mr-6">
-              {HEADER_CONTENTS.map((content) => (
-                <li key={content.id} className="[&:nth-child(n+2)]:ml-4">
-                  <HeaderLink label={content.label} url={content.url} />
-                </li>
-              ))}
+              {HEADER_CONTENTS.map((content) => {
+                const isOuterLink = content.url.includes("https");
+                return (
+                  <li key={content.id} className="[&:nth-child(n+2)]:ml-4">
+                    <HeaderLink
+                      label={content.label}
+                      url={content.url}
+                      isOuterLink={isOuterLink}
+                    />
+                  </li>
+                );
+              })}
             </ul>
             <ContactButton />
           </div>
