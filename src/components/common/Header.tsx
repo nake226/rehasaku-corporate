@@ -99,9 +99,17 @@ export const Header = ({ isChildPage = true }: Props) => {
                       className="py-4 px-6 [&:nth-child(n+2)]:border-t border-lightGray"
                     >
                       {label === "事業紹介" ? (
-                        <HeaderLink label={content.label} url={content.url} />
+                        <HeaderLink
+                          label={content.label}
+                          url={content.url}
+                          onClick={handleBodyFixedStatus}
+                        />
                       ) : (
-                        <HeaderLink label={content.label} url={content.url} />
+                        <HeaderLink
+                          label={content.label}
+                          url={content.url}
+                          onClick={handleBodyFixedStatus}
+                        />
                       )}
                     </li>
                   );
