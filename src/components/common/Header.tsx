@@ -102,17 +102,13 @@ export const Header = ({ isChildPage = true }: Props) => {
                         <HeaderLink
                           label={content.label}
                           url={content.url}
-                          onClick={() => {
-                            handleBodyFixedStatus();
-                          }}
+                          onClick={handleBodyFixedStatus}
                         />
                       ) : (
                         <HeaderLink
                           label={content.label}
                           url={content.url}
-                          onClick={() => {
-                            handleBodyFixedStatus();
-                          }}
+                          onClick={handleBodyFixedStatus}
                         />
                       )}
                     </li>
