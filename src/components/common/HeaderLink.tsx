@@ -4,7 +4,7 @@ type Props = {
   label: string;
   url: string;
   isOuterLink?: boolean;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export const HeaderLink = ({
