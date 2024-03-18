@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Sitemap = () => {
   return (
-    <div className="flex justify-center pt-16 px-[140px] pb-12 gap-x-32 mx-auto sm:flex-col sm:pt-20 sm:px-8 sm:pb-24 sm:gap-y-8">
+    <div className="flex justify-center pt-16 px-[140px] pb-12 gap-x-32 mx-auto sm:flex-col sm:pt-20 sm:px-8 sm:pb-24 sm:gap-y-8 text-[#3A3A3A]">
       <div>
         <p className="border-b border-primary pb-2 font-bold">
           リハサクについて

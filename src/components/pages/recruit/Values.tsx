@@ -9,6 +9,7 @@ export const Values = () => {
         title={<span className="font-bold">VALUES</span>}
         subTitle="リハサクが大事にする6つの価値観"
         iconSummitPosition="tl"
+        subTitleCustomClassName="text-gray font-bold"
       />
       <ul className="flex md:flex-wrap justify-center sm:flex-col md:max-w-[930px] md:mx-auto">
         {VALUES_CONTENTS.map((content) => (

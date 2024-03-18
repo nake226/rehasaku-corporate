@@ -9,6 +9,7 @@ export const Members = () => {
         title={<span className="font-bold">MEMBERS</span>}
         subTitle="メンバー紹介"
         iconSummitPosition="tr"
+        subTitleCustomClassName="text-gray font-bold"
       />
       <ul className="flex flex-wrap sm:justify-between md:gap-y-10 sm:gap-y-12 md:gap-x-4 md:max-w-[1094px] md:mx-auto">
         {MEMBERS_CONTENTS.map((content) => (

@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 type Props = {
   title: ReactNode;
   subTitle: string;
+  subTitleCustomClassName?: string;
   iconSummitPosition?: "tr" | "bl" | "tl";
   contentsAlign?: "center" | "start";
 };
@@ -11,9 +12,14 @@ type Props = {
 export const SectionTitle = ({
   title,
   subTitle,
+  subTitleCustomClassName,
   iconSummitPosition = "tr",
   contentsAlign = "center",
 }: Props) => {
+  const subTitleClassName = subTitleCustomClassName
+    ? subTitleCustomClassName
+    : "";
+
   const getIconPosition = (iconSummitPosition: Props["iconSummitPosition"]) => {
     switch (iconSummitPosition) {
       case "bl":
@@ -42,7 +48,7 @@ export const SectionTitle = ({
         alt=""
       />
       <p className="text-h1 leading-h1">{title}</p>
-      <p className="text-sub leading-sub">{subTitle}</p>
+      <p className={`text-sub leading-sub ${subTitleClassName}`}>{subTitle}</p>
     </div>
   );
 };

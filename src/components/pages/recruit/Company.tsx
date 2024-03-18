@@ -14,6 +14,7 @@ export const Company = () => {
         }
         subTitle="採用デック"
         iconSummitPosition="tr"
+        subTitleCustomClassName="text-gray font-bold"
       />
       <Link className="text-small" href={""}>
         <Image
