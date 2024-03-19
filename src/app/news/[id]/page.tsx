@@ -4,7 +4,7 @@ import { formatNewsDate } from "@/lib/date";
 import { getNewsDetail, getNewsList } from "@/lib/microcms";
 import Image from "next/image";
 
-export async function getNewsIds() {
+export async function generateStaticParams() {
   const { contents } = await getNewsList();
 
   const paths = contents.map((news) => {
