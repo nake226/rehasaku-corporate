@@ -24,11 +24,6 @@ export const HEADER_CONTENTS = [
     label: "採用情報",
     url: "/recruit",
   },
-  {
-    id: 6,
-    label: "ブログ",
-    url: "https://rehasaku.net/magazine",
-  },
 ];
 
 export const FOOTER_CONTENTS = [
