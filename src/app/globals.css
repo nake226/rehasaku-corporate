@@ -7,3 +7,45 @@
     min-width: 1280px;
   }
 }
+
+.news-body {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #007cbe;
+  font-family: "Noto Sans JP";
+  line-height: 150%;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 80px;
+  }
+
+  h2 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #222222;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #555555;
+  }
+
+  figure {
+    margin-block: 24px;
+
+    img {
+      margin-inline: auto;
+      width: 75%;
+
+      @media screen and (min-width: 768px) {
+        max-width: 480px;
+      }
+    }
+  }
+}
