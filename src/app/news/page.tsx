@@ -34,9 +34,16 @@ export default async function NewsPage() {
                 <span className="font-jost text-aboutGray text-caption leading-caption">
                   {formatNewsDate(news.createdAt)}
                 </span>
-                <p className="border border-blue rounded-2xl px-3 text-blue text-[13px]">
-                  {news.categories}
-                </p>
+                <ul className="flex gap-x-2">
+                  {news.categories.map((category) => (
+                    <li
+                      key={category}
+                      className="border border-blue rounded-2xl px-3 text-blue text-[13px]"
+                    >
+                      {category}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </li>
           ))}

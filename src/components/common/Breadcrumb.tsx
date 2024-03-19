@@ -7,7 +7,7 @@ type Props = {
 export const Breadcrumb = ({ pages }: Props) => {
   return (
     <ul className="flex py-4 px-6 text-[15px] leading-[15px] text-blue">
-      <li>
+      <li key="top">
         <Link href="/">TOP</Link>
       </li>
       {pages.map((page) => (
