@@ -63,6 +63,7 @@ const config: Config = {
     },
     fontFamily: {
       sans: ["var(--font-noto-sans-jp)"],
+      jost: ["var(--font-jost)"],
     },
   },
 };
