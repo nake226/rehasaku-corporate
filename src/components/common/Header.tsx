@@ -94,7 +94,7 @@ export const Header = ({ isChildPage = true }: Props) => {
                     <li
                       key={content.id}
                       className={`py-4 px-6 ${
-                        label === "事業紹介" && "py-0 px-0"
+                        label === "事業紹介" && "!py-0 !px-0"
                       } [&:nth-child(n+2)]:border-t border-lightGray`}
                     >
                       {label === "事業紹介" ? (
