@@ -18,7 +18,7 @@ export const HeaderLink = ({
     : { href: url };
   return (
     <Link
-      className="text-[15px] leading-[22px] font-bold"
+      className="text-paragraph leading-paragraph font-bold"
       {...linkProps}
       onClick={onClick}
     >

@@ -85,10 +85,7 @@ export const Header = ({ isChildPage = true }: Props) => {
             htmlFor="header"
             className="border-y-2 border-blue w-10 h-4 block peer-checked:border-0 peer-checked:bg-blue peer-checked:h-[2px]"
           />
-          <label
-            htmlFor="header"
-            className="hidden peer-checked:block absolute top-[57px] left-0 w-full h-[calc(100vh_-_57px)] bg-white z-10"
-          >
+          <div className="hidden peer-checked:block absolute top-[57px] left-0 w-full h-[calc(100vh_-_57px)] bg-white z-10">
             <div className="flex flex-col">
               <ul className="flex flex-col border-t border-offWhite">
                 {HEADER_CONTENTS.map((content) => {
@@ -96,14 +93,94 @@ export const Header = ({ isChildPage = true }: Props) => {
                   return (
                     <li
                       key={content.id}
-                      className="py-4 px-6 [&:nth-child(n+2)]:border-t border-lightGray"
+                      className={`py-4 px-6 ${
+                        label === "事業紹介" && "py-0 px-0"
+                      } [&:nth-child(n+2)]:border-t border-lightGray`}
                     >
                       {label === "事業紹介" ? (
-                        <HeaderLink
-                          label={content.label}
-                          url={content.url}
-                          onClick={handleBodyFixedStatus}
-                        />
+                        <>
+                          <input
+                            type="checkbox"
+                            name="service"
+                            id="service"
+                            className="hidden peer/service"
+                          />
+                          <label htmlFor="service">
+                            <p className="px-6 py-4 text-paragraph leading-paragraph font-bold">
+                              事業紹介
+                            </p>
+                          </label>
+                          <span className="absolute top-7 right-6 w-3 h-3 border-b-2 border-r-2 border-[#999999] pointer-events-none rotate-45 peer-checked/service:top-8 peer-checked/service:border-b-0 peer-checked/service:border-t-2 peer-checked/service:-rotate-45" />
+                          <div className="hidden peer-checked/service:block">
+                            <ul>
+                              <li className="relative py-4 border-t border-lightGray">
+                                <input
+                                  type="checkbox"
+                                  name="service-medical"
+                                  id="service-medical"
+                                  className="hidden peer/service-medical"
+                                />
+                                <label htmlFor="service-medical">
+                                  <p className="pl-6 text-paragraph leading-paragraph">
+                                    医療機関向け REHASAKU Medical
+                                  </p>
+                                </label>
+                                <span className="absolute top-7 right-6 w-2 h-2 border-b-2 border-r-2 border-[#999999] pointer-events-none rotate-45 peer-checked/service-medical:top-8 peer-checked/service-medical:border-b-0 peer-checked/service-medical:border-t-2 peer-checked/service-medical:-rotate-45" />
+                                <div className="hidden peer-checked/service-medical:block pl-6">
+                                  <p className="text-small leading-small">
+                                    <Link
+                                      href="/service"
+                                      className="block pt-4"
+                                      onClick={() => {
+                                        handleBodyFixedStatus();
+                                      }}
+                                    >
+                                      運動療法クラウドシステム
+                                    </Link>
+                                  </p>
+                                </div>
+                              </li>
+                              <li className="relative py-4 border-t border-lightGray">
+                                <input
+                                  type="checkbox"
+                                  name="service-posture"
+                                  id="service-posture"
+                                  className="hidden peer/service-posture"
+                                />
+                                <label htmlFor="service-posture">
+                                  <p className="pl-6 text-paragraph leading-paragraph">
+                                    治療院向け REHASAKU
+                                  </p>
+                                </label>
+                                <span className="absolute top-7 right-6 w-2 h-2 border-b-2 border-r-2 border-[#999999] pointer-events-none rotate-45 peer-checked/service-posture:top-8 peer-checked/service-posture:border-b-0 peer-checked/service-posture:border-t-2 peer-checked/service-posture:-rotate-45" />
+                                <div className="hidden peer-checked/service-posture:block pl-6 ">
+                                  <p className="text-small leading-small">
+                                    <Link
+                                      href="/service"
+                                      className="block pt-4"
+                                      onClick={() => {
+                                        handleBodyFixedStatus();
+                                      }}
+                                    >
+                                      運動指導支援ツール
+                                    </Link>
+                                  </p>
+                                  <p className="text-small leading-small">
+                                    <Link
+                                      href="/service/posture"
+                                      className="block pt-4"
+                                      onClick={() => {
+                                        handleBodyFixedStatus();
+                                      }}
+                                    >
+                                      AI姿勢分析
+                                    </Link>
+                                  </p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </>
                       ) : (
                         <HeaderLink
                           label={content.label}
@@ -119,7 +196,7 @@ export const Header = ({ isChildPage = true }: Props) => {
                 <ContactButton />
               </div>
             </div>
-          </label>
+          </div>
         </div>
       </header>
     </div>
