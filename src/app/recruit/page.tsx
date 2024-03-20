@@ -5,7 +5,7 @@ import { Office } from "@/components/pages/recruit/Office";
 import { Values } from "@/components/pages/recruit/Values";
 import { Recruit } from "@/components/pages/recruit/Recruit";
 import { ChildPage } from "@/components/templates/ChildPage";
-import DemoSlider from "@/components/common/DemoSlider";
+import { Slider } from "@/components/common/Slider";
 import { Breadcrumb } from "@/components/common/Breadcrumb";
 
 export default function RecruitPage() {
@@ -42,7 +42,7 @@ export default function RecruitPage() {
       <Values />
       <Members />
       <Office />
-      <DemoSlider data={dataSlider} />
+      <Slider data={dataSlider} />
       <Company />
       <Recruit />
     </ChildPage>

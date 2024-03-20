@@ -49,3 +49,11 @@
     }
   }
 }
+
+.swiper {
+  padding-bottom: 40px !important;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}

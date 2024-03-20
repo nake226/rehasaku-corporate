@@ -13,7 +13,7 @@ export const Breadcrumb = ({ pages }: Props) => {
       {pages.map((page) => (
         <li
           key={page.label}
-          className="relative ml-8 before:absolute before:top-1 before:-left-6 before:-rotate-45 before:border-black before:border-r-2 before:border-b-2 before:w-[10px] before:h-[10px]"
+          className="relative ml-8 before:absolute before:top-1 before:-left-6 before:-rotate-45 before:border-primary before:border-r-2 before:border-b-2 before:w-[9px] before:h-[9px]"
         >
           <Link href={page.url}>{page.label}</Link>
         </li>

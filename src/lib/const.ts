@@ -24,11 +24,6 @@ export const HEADER_CONTENTS = [
     label: "採用情報",
     url: "/recruit",
   },
-  {
-    id: 6,
-    label: "ブログ",
-    url: "https://rehasaku.net/magazine",
-  },
 ];
 
 export const FOOTER_CONTENTS = [
@@ -95,7 +90,7 @@ export const SERVICE_CONTENTS = [
       {
         id: 1,
         label: "REHASAKU Medical\n（運動療法クラウドシステム）",
-        url: "/service",
+        url: "https://rehasaku.net/contact/lp/3",
       },
     ],
   },
@@ -111,7 +106,7 @@ export const SERVICE_CONTENTS = [
       {
         id: 2,
         label: "REHASAKU Posture（AI姿勢分析）",
-        url: "/service/posture",
+        url: "/service/platform",
       },
     ],
   },
