@@ -36,7 +36,7 @@ Next.js と microCMS を用いた Jamstack でのサイト構築プロジェク�
 
 ## ディレクトリ構成
 
-❯ tree -a -I "node_modules|.next|.git" -L 2
+❯ tree -a -I "node_modules|.next|.git" -L 3
 
 <pre>
 .
