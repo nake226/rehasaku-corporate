@@ -37,6 +37,8 @@ Next.js と microCMS を用いた Jamstack でのサイト構築プロジェク�
 ## ディレクトリ構成
 
 ❯ tree -a -I "node_modules|.next|.git" -L 2
+
+<pre>
 .
 ├── .env.local
 ├── .eslintrc.json
@@ -49,10 +51,10 @@ Next.js と microCMS を用いた Jamstack でのサイト構築プロジェク�
 ├── postcss.config.js
 ├── public
 │   └── images
-│   ├── common
-│   ├── recruit
-│   ├── service
-│   └── top
+│       ├── common
+│       ├── recruit
+│       ├── service
+│       └── top
 ├── src
 │   ├── app
 │   │   ├── about
@@ -73,15 +75,11 @@ Next.js と microCMS を用いた Jamstack でのサイト構築プロジェク�
 │   │   ├── date.ts
 │   │   ├── font.ts
 │   │   └── microcms.ts
-│   ├── middleware.ts
-│   └── pages
-│   ├── about
-│   ├── philosophy
-│   ├── recruit
-│   └── service
+│   └── middleware.ts
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── yarn.lock
+</pre>
 
 ## 開発環境構築
 
