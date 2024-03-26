@@ -87,12 +87,6 @@ Next.js と microCMS を用いた Jamstack でのサイト構築プロジェク�
 
 [環境変数の一覧](#環境変数の一覧)を元に作成
 
-.env.local
-- BASIC_USER
-- BASIC_PASSWORD
-- MICROCMS_SERVICE_DOMAIN
-- MICROCMS_API_KEY
-
 ### パッケージのインストール
 
 ```bash
